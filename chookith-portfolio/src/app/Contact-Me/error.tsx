@@ -16,12 +16,15 @@ export default function Error({
   }, [error]);
 
   return (
-    <div>
-      <h2>aahh -_-</h2>
-      <p>Sorry...</p>
-      <p>I think something went wrong</p>
-      <p>Maybe... click the button?</p>
-      <button onClick={() => reset()}> Try Again</button>
-    </div>
+    <>
+      <div>
+        <h2>aahh</h2>
+        <p>Sorry...</p>
+        <p>I think something went wrong</p>
+        <p>this maybe: {error.message}</p>
+        <p>Maybe... click the button?</p>
+        <button onClick={() => reset()}> Try Again</button>
+      </div>
+    </>
   );
 }

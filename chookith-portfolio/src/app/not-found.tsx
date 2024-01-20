@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function NotFound() {
   return (
-    <div>
-      <h2>404 error</h2>
+    <div className="flex h-screen w-screen flex-col items-center justify-center">
+      <h1>404 error</h1>
       <p>I'm sorry we looked and couldn't find that page</p>
-      <Link href="/chookith-portfolio/src/app/page.tsx"></Link>
+      <Link href="/">go Home</Link>
     </div>
   );
 }

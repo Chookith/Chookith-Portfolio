@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="h-25 fixed block items-center bg-cream text-2xl font-medium antialiased shadow-lg">
+        <div className="h-25 fixed z-30 items-center bg-cream text-2xl font-medium shadow-lg">
           <div className="flex w-screen flex-row">
             <div className="flex basis-1/2 items-start justify-start p-10">
               <Link
@@ -32,12 +32,6 @@ export default function RootLayout({
                 className=" flex justify-end p-10 transition delay-75 hover:-translate-y-1"
               >
                 Contact Me
-              </Link>
-              <Link
-                href="/Contact-Me"
-                className=" flex justify-end p-10 transition delay-75 hover:-translate-y-1"
-              >
-                Contact Me 2
               </Link>
             </div>
           </div>

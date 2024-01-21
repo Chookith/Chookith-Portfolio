@@ -21,7 +21,7 @@ export default function RootLayout({
             <div className="flex basis-1/2 items-start justify-start p-10">
               <Link
                 href="/"
-                className=" flex  transition delay-75 hover:-translate-y-2"
+                className=" flex  transition delay-75 hover:-translate-y-1"
               >
                 Chookith
               </Link>
@@ -29,13 +29,13 @@ export default function RootLayout({
             <div className=" flex basis-1/2 items-end justify-end">
               <Link
                 href="/Contact-Me"
-                className=" flex justify-end p-10 transition delay-75 hover:-translate-y-2"
+                className=" flex justify-end p-10 transition delay-75 hover:-translate-y-1"
               >
                 Contact Me
               </Link>
               <Link
                 href="/Contact-Me"
-                className=" flex justify-end p-10 transition delay-75 hover:-translate-y-2"
+                className=" flex justify-end p-10 transition delay-75 hover:-translate-y-1"
               >
                 Contact Me 2
               </Link>

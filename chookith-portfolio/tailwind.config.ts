@@ -24,7 +24,7 @@ const config: Config = {
       },
       animation: {
         dropIn: "dropIn 1s ease 200ms backwards",
-        dropIn2: "dropIn2 1200ms ease 400ms backwards",
+        dropIn2: "dropIn2 1400ms ease 400ms backwards",
       },
       colors: {
         midnightpurple: "#413C58",

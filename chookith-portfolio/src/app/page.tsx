@@ -1,6 +1,5 @@
 import { Suspense } from "react";
 import Image from "next/image";
-import myPhoto from "./my-Photo.jpeg";
 import Loading from "./loading";
 import Link from "next/link";
 
@@ -10,7 +9,7 @@ export default function Home() {
       <main>
         <section className="overflow-y flex h-auto w-auto flex-col xl:h-screen xl:flex-row">
           <section className="flex-col items-center justify-center sm:basis-1/2">
-            <h1 className=" mt-36 animate-dropIn items-center justify-center text-center text-4xl sm:text-5xl xl:ml-36 xl:mt-52">
+            <h1 className=" mt-16 animate-dropIn items-center justify-center text-center text-4xl sm:text-5xl xl:ml-36 xl:mt-52">
               {" "}
               I am
             </h1>
@@ -34,7 +33,9 @@ export default function Home() {
           </section>
           <section className="flex w-auto items-center justify-center xl:w-5/12">
             <Image
-              src={myPhoto}
+              src="/my-Photo.jpeg"
+              width={700}
+              height={500}
               alt="smiling woman with green head wrap, glasses, and a black shirt"
               className="mt-20 w-1/2 animate-[dropIn_1200ms_ease_700ms_backwards] rounded-3xl lg:basis-1/2 xl:ml-36 xl:mt-16 xl:rounded-full"
             ></Image>
@@ -55,8 +56,9 @@ export default function Home() {
               <p className=" pl-5 text-center text-xl">
                 Hello I'm Charli also known as Chookith. I am a junior front-end
                 web developer who is based in Australia. After an accidental
-                bush with a websites devtools I needed to know what this
-                language was. I have been coding as a hobby for 4 years now.
+                bush with a websites devtools I started learning the ins and
+                outs of web developement. I have been coding as a hobby for 4
+                years now.
               </p>
               <p className="pl-5 text-center text-xl">
                 <br />
@@ -80,12 +82,12 @@ export default function Home() {
             </article>
           </div>
         </section>
-        <section className="h-auto w-auto pb-52">
-          <article className="mt-24 pb-10 text-center ">
+        <section className="h-auto w-auto  pb-36">
+          <article className="mt-24  pb-10 text-center">
             <h1 className=" animate-[dropIn_1200ms_ease_800ms_backwards] text-5xl">
               Projects
             </h1>
-            <ul className="mx-10  flex flex-col items-start justify-center lg:flex-row">
+            <ul className="mx-10  flex flex-col  items-start justify-center lg:flex-row">
               <li className="mt-10 flex  w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col items-center justify-center rounded-3xl bg-cream p-5 shadow-xl transition delay-75 hover:-translate-y-1 lg:mx-5 lg:w-auto lg:basis-1/3">
                 <h1 className="text-2xl">Portfolio</h1>
                 <ul className="flex  flex-wrap items-center justify-center xl:flex-row">
@@ -157,6 +159,51 @@ export default function Home() {
                 </Link>
               </li>
             </ul>
+          </article>
+        </section>
+
+        <section className=" h-full w-full rounded-2xl bg-ashblue px-16 py-12 shadow-xl ">
+          <h1 className="mt-16 animate-[dropIn_1300ms_ease_600ms_backwards] pb-10 text-center text-5xl lg:mt-24 lg:pl-5">
+            Let's Get In Contact
+          </h1>
+          <article className=" flex basis-1/2 flex-col lg:flex-row lg:divide-x lg:divide-y-0">
+            <div className="grid basis-1/4 animate-[dropIn_1400ms_ease_700ms_backwards] grid-cols-2 grid-rows-2 items-center justify-center gap-2  xl:mr-5 ">
+              <Link
+                href="mailto:chookchook1@outlook.com"
+                className="m-1 flex items-center rounded-full bg-cream p-5 text-center shadow-xl transition delay-75 hover:-translate-y-1"
+              >
+                Email
+              </Link>
+              <Link
+                href="https://github.com/Chookith"
+                target="_blank"
+                rel="noreferrer noopener"
+                className=" flex items-center rounded-full bg-cream p-5 text-center shadow-xl transition delay-75 hover:-translate-y-1"
+              >
+                GitHub
+              </Link>
+
+              <Link
+                href="https://www.linkedin.com/in/chookith-f2dda3/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className=" flex items-center rounded-full bg-cream p-5 text-center shadow-xl transition delay-75 hover:-translate-y-1"
+              >
+                LinkedIn
+              </Link>
+              <Link
+                href="https://www.instagram.com/chookith001?igsh=am42MThmaGVvbmtr&utm_-source=qr"
+                target="_blank"
+                rel="noreferrer noopener"
+                className=" flex items-center rounded-full bg-cream p-5 text-center shadow-xl transition delay-75 hover:-translate-y-1"
+              >
+                Instagram
+              </Link>
+            </div>
+
+            <p className="mt-10 flex basis-1/2 animate-[dropIn_1400ms_ease_700ms_backwards] items-center justify-center border-y py-10 text-center text-2xl lg:ml-16 lg:py-0">
+              Feel free to get in touch! I'd love to get some freelance work{" "}
+            </p>
           </article>
         </section>
       </main>

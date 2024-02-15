@@ -41,7 +41,7 @@ export default function Home() {
             ></Image>
           </section>
         </section>
-        <section className="h-auto w-auto flex-col ">
+        <section className="flex h-auto w-auto flex-col ">
           <h1 className="mt-24 animate-[dropIn_1300ms_ease_600ms_backwards] pb-10 pl-5 text-center text-5xl">
             About Me
           </h1>
@@ -56,7 +56,7 @@ export default function Home() {
               <p className=" pl-5 text-center text-xl">
                 Hello I'm Charli also known as Chookith. I am a junior front-end
                 web developer who is based in Australia. After an accidental
-                bush with a websites devtools I started learning the ins and
+                brush with a websites devtools I started learning the ins and
                 outs of web developement. I have been coding as a hobby for 4
                 years now.
               </p>

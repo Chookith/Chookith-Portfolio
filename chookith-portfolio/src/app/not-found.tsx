@@ -15,10 +15,10 @@ export default function NotFound() {
           Go Home
         </Link>
       </div>
-      <div className=" mt-20">
+      <div className="">
         <Link
-          href="/"
-          className=" mt-20 justify-end  rounded-full bg-cream p-5 text-center shadow-xl transition  delay-75 hover:-translate-y-1"
+          href="/PrettyQuotes"
+          className=" mt-5 justify-end  rounded-full text-center shadow-sm transition  delay-75 hover:-translate-y-1"
         >
           Go to pretty quotes
         </Link>

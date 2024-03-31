@@ -17,10 +17,10 @@ export default function PrettyQuotes() {
             </h3>
           </article>
         </section>
-        <ul className="flex w-auto flex-col text-left">
+        <ul className="mx-5 my-10 flex w-auto flex-col text-left">
           <section className="flex flex-row ">
-            <li className="mt-5 flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col items-center justify-center rounded-3xl bg-sunlightyellow p-5 shadow-xl transition delay-75 hover:-translate-y-1 lg:mx-5 lg:basis-1/2">
-              <h3 className="text-xl">On Being Named Messiah</h3>
+            <li className="mt-5 flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col rounded-3xl bg-ashblue p-5 shadow-xl transition delay-75 hover:-translate-y-1 lg:mx-5 lg:basis-1/2">
+              <h3 className="text-2xl">On Being Named Messiah</h3>
               <p>
                 <br />
                 <b>i.</b> If your shoulder blades were to bend themselves back
@@ -63,10 +63,75 @@ export default function PrettyQuotes() {
                 <b>v.</b> you say his reverence was a holy march, a fragment of
                 bone an aching lung
               </p>
-              <p>-unknown</p>
+              <p className="text-center">-unknown</p>
             </li>
+            <li className="mt-5 flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col rounded-3xl bg-ashblue  p-5 shadow-xl transition delay-75 hover:-translate-y-1 lg:mx-5 lg:basis-1/2">
+              <h3 className="text-2xl">
+                Fallen Angel Prays Beside The Coffee Maker
+              </h3>
+              <p>
+                <br />
+                all words come from somewhere. cradele of the larynx, riverbank
+                of the vocal cords. once upon a time you pressed your fingertips
+                to my not-adam's
+                <br />
+              </p>
+              <p>
+                <br />
+                apple & call it <i>holy, holy</i> gifted me with the shapes of
+                the word wings & suddenly flight. In spite of everything, I'll
+                still spend this morning praying as steam
+                <br />
+              </p>
+              <p>
+                <br />
+                rises & sugar melts : oh starmaker, bless bees for their
+                dancing, bless the neighbor for her breadmaking, bless the sweat
+                running down my forehead & stinging
+                <br />
+              </p>
+              <p>
+                <br />
+                my eyes. I am teaching myself how to sing hymns again for you,
+                slowly, with this small human mouth, with its crooked teeth &
+                its blackberry-craving tongue.
+                <br />
+              </p>
+              <p>
+                <br />
+                While I wait for the coffee to cool, my lover is moving through
+                our garden, tending to the carrots & to the fig tree, checking
+                the scar left behind in the land-
+                <br />
+              </p>
+              <p>
+                <br />
+                scape after I fell. <i>violets aer growing there now,</i> he
+                told me last week as he came in from the rain, wet shirt
+                clinging to his chest, eyes shining. <i>wild violets, same</i>
+                <br />
+              </p>
+              <p>
+                <br />
+                <i>color as the heart of a saint.</i> & lord there is no word
+                more beautiful than his name. I will be singing it to him until
+                the heat-death of this universe robs
+                <br />
+              </p>
+              <p>
+                <br />
+                us all of sound. holy, holy is the gleam of his teeth as he
+                laughs. you know i let him touch my shoulder blades now?
+                <br />
+              </p>
+              <p className="text-center">
+                <i>-Keaton St. James</i>
+              </p>
+            </li>
+          </section>
+          <section className="flex flex-row  ">
             <li className=" mt-5 flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col items-center justify-center rounded-3xl bg-sunlightyellow p-5 text-center shadow-xl transition delay-75 hover:-translate-y-1 lg:mx-5 lg:basis-1/2">
-              <h3 className="text-xl">On Being Named Messiah</h3>
+              <h3 className="text-2xl">Apollo</h3>
               <p>
                 <br />
                 The sun inside of him rages like wildfire and he is
@@ -96,21 +161,238 @@ export default function PrettyQuotes() {
               </p>
               <p>Find me in the ashes</p>
             </li>
+            <li className="mt-5 flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col rounded-3xl bg-ashblue p-5 shadow-xl transition delay-75 hover:-translate-y-1 lg:mx-5 lg:basis-1/2">
+              <h3 className="text-2xl">Guardian</h3>
+              <p>
+                a six-winged angel leans against the tennis court fence, xir
+                knuckles a mess of blood, xir mouth a mess of thorns <br />
+              </p>
+              <p>
+                <br />
+                <i>DID I WIN?</i>
+              </p>
+              <p>
+                <br />
+                the angel asks.
+                <br />
+              </p>
+              <p>
+                xir tennis racket shuddering with the weight of holy fire.
+                <br />
+              </p>
+              <p>
+                <br />
+                <i>You did,</i>
+                <br />
+                says the very small boy on the other side of the court,
+                grinning. he wipes sweat from his forehead with the back of his
+                hand.
+                <br />
+                <i>all three games. that was so beautiful</i>
+              </p>
+              <p>
+                <br />
+                <i>GOD BLESS,</i>
+              </p>
+              <p>
+                <br />
+                declares the angel as xe brushes the dust off xir lime green
+                tennis shorts.
+                <br />
+              </p>
+              <p>
+                <br />
+                <i>
+                  LET'S GO DOWNTOWN, KID THIS ROUND OF MINT CHOCLATE ICECREAM IS
+                  ON ME.
+                </i>
+              </p>
+              <p className="text-center">
+                <i>-Keaton St. James</i>
+              </p>
+            </li>
           </section>
           <section className="flex flex-row ">
-            <li className="mt-5 flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col items-center justify-center rounded-3xl bg-sunlightyellow p-5 shadow-xl transition delay-75 hover:-translate-y-1 lg:mx-5 lg:basis-1/2">
-              hello
+            <li className="mt-5 flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col items-center justify-center rounded-3xl bg-ashblue p-5 shadow-xl transition delay-75 hover:-translate-y-1 lg:mx-5 lg:basis-1/2">
+              <p>
+                you lie awake under the vanilla milk moon and wait for the
+                universe to sing you it's song about the first sunrise
+                <br />
+              </p>
+              <h3 className="text-2xl">
+                <br />
+                the birth of ethereal beings <br />
+              </h3>
+              <p>
+                <br />
+                the universe begins to hum in sync with your thoughts and you
+                start to understand the dead language of the gods
+                <br />
+              </p>
+              <p>
+                <br />
+                and you feel their ichor in your veins and their heartbeats in
+                the pit of your stomach. you hear the constellations
+                <br />
+              </p>
+              <p>
+                <br />
+                flicker and hiss and burn you decipher the evergreen's fading
+                whispers. the universe sings of the plum skin-stained
+                <br />
+              </p>
+              <p>
+                <br />
+                sky and how it shattered open and fell into itself at the holy
+                blow of God's breath, so clear and humble and
+                <br />
+              </p>
+              <p>
+                <br />
+                breathtaking. the universe sings of the ruined angel's rebirth:
+                the sun, how he burns eternally; a small price to pay <br />
+              </p>
+              <p>
+                <br />
+                for his sins. the universe sings of the ground and the fallen,
+                sharp edged stars buried within, of the souls that sprouted
+                <br />
+              </p>
+              <p>
+                <br />
+                from the fallen, sharp edged stars, of the bodied cocoons
+                shielding the souls, of the love made using those bodies. the
+                <br />
+              </p>
+              <p>
+                <br />
+                universe sings of creature who roam the earth with nebulae
+                residue in their eyes and hearts that encompass home.
+                <br />
+              </p>
+              <p>
+                <br />
+                <i>the universe sings to you. the universe sings of you</i>
+                <br />
+              </p>
+              <p>
+                <br />
+                <i>-aarah:)</i>
+                <br />
+              </p>
             </li>
-            <li className="mt-5 flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col items-center justify-center rounded-3xl bg-sunlightyellow p-5 shadow-xl transition delay-75 hover:-translate-y-1 lg:mx-5 lg:basis-1/2">
-              hello
+            <li className="mt-5 flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col justify-center rounded-3xl bg-ashblue p-5 shadow-xl transition delay-75 hover:-translate-y-1 lg:mx-5 lg:basis-1/2">
+              <h3 className="text-2xl">Messiah</h3>
+              <p>
+                <br />
+                <b>i. </b> your favorite word is <i>yesha.</i> you've got
+                blisters on your feet, dirt on your shins, sunburn on your neck,
+                and the taste of blood in your mouth, always. everyone you touch
+                burns like a blue start. trout would become matzah if you asked.
+                reeds would become swords if you asked
+                <br />
+              </p>
+              <p>
+                <br />
+                <b>ii.</b> hope is synonymous with armor on your tongue , and
+                all the hymns are truely warsongs. what does forgiveness mean?
+                it means your hair dripping with spikenard ointment. it means
+                your cheekbones algow in firelight. it means kiss me. we are all
+                holy and there is no reason to be afraid of what comes next.
+                <br />
+              </p>
+              <p>
+                <br />
+                <b>iii.</b> you always loved brambles, even when they tore the
+                skin of your hands to pieces
+                <br />
+              </p>
             </li>
           </section>
-          <section className="flex flex-row ">
-            <li className="mt-5 flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col items-center justify-center rounded-3xl bg-sunlightyellow p-5 shadow-xl transition delay-75 hover:-translate-y-1 lg:mx-5 lg:basis-1/2">
-              hello
+          <section className="flex flex-row">
+            <li className="mt-5 flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col items-center justify-center rounded-3xl bg-teagreen p-5 shadow-xl transition delay-75 hover:-translate-y-1 lg:mx-5 lg:basis-1/2">
+              <h3 className="text-2xl">Herald</h3>
+              <p>
+                <br />
+                4 hours into your beginning there was cattle, offerings and
+                invention. When your brother found you, you were a thief, a liar
+                and a trickster.
+                <br />
+              </p>
+              <p>
+                <br />
+                44 days into your beginning. your mother's name coaxes in the
+                end of spring, you are a herald of the your father and one of
+                your uncles and theres also a flower who should have been a boy
+                for longer. your brother also knows this sorrow
+                <br />
+              </p>
+              <p>
+                <br />
+                4444 years into your beginning. every aspect of society rings
+                with memories of you. you have worship on the other side of the
+                globe but the price that came with it was...
+                <br />
+              </p>
+              <p>
+                <br />
+                its cruel to give us so many languages to say i love you in,
+                with only enough time to learn a few.
+                <br />
+              </p>
+              <p className="hidden">
+                <br />
+                for a god not bound to tell the truth, youre the one seeking it
+                <br />
+                theres always a weak spot in the boundary. a gate. a broken
+                panel. love.
+                <br />
+                where do you draw the line between dreams and nightmares? when
+                does heads become tails?
+                <br />
+                remind me of what it was to travel. unbound. unrestrained.
+                unhindered by the weight of the rest of your domain.
+                <br />
+                remind me what it was to be young. bound only by dawn and dusk.
+                restrained only by your imagination. hindered only by height.
+                <br />
+                remind me of what it was to have. freedom. youth. dreams
+              </p>
             </li>
             <li className="mt-5 flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col items-center justify-center rounded-3xl bg-sunlightyellow p-5 shadow-xl transition delay-75 hover:-translate-y-1 lg:mx-5 lg:basis-1/2">
-              hello
+              <h3 className="text-2xl">Wild</h3>
+              <p>
+                <br />
+                3 deaths. 3 births. each more violent then the last.
+                <br />
+              </p>
+              <p>
+                <br />
+                act i. womenhood - is a performance at best.
+                <br />
+                show me grief with a smile.
+                <br />
+              </p>
+              <p>
+                <br />
+                act ii. man hood - wine-dark - violent
+                <br />
+                show me beautiful violence. show me peace with an axe and raw
+                strength.
+                <br />
+              </p>
+              <p>
+                <br />
+                act iii. god hood. - release - foilage
+                <br />
+                show me emotion with no strings attached.
+                <br />
+              </p>
+              <p>
+                <br />
+                fin
+                <br />
+              </p>
             </li>
           </section>
         </ul>

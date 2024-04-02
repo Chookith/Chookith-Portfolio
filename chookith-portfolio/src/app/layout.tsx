@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className=" h-25 fixed z-30 hidden w-screen flex-row items-center bg-cream text-2xl font-medium shadow-lg lg:flex">
+        <div className="h-25 fixed z-30 hidden w-screen flex-row items-center bg-cream text-2xl font-medium shadow-lg lg:flex">
           <div className="flex basis-1/2 items-start justify-start p-10">
             <Link
               href="/"

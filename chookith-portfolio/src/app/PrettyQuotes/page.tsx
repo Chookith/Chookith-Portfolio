@@ -368,17 +368,23 @@ export default function PrettyQuotes() {
               </p>
               <p>
                 <br />
-                act i. womenhood - is a performance at best.
+                act i. womenhood - is a performance at best - comedy
                 <br />
-                show me grief with a smile.
+                show me grief with a smile
+                <br />
+                there was a reason the first birth came from the underworld
+                <br />
                 <br />
               </p>
               <p>
                 <br />
-                act ii. man hood - wine-dark - violent
+                act ii. man hood - wine-dark - violent -tragedy
                 <br />
-                show me beautiful violence. show me peace with an axe and raw
-                strength.
+                show me beautiful violence. show me peace with an axe on the
+                battlefield.
+                <br />
+                <br />
+                when my feminine mask melted in my river of tears,
                 <br />
               </p>
               <p>

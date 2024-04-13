@@ -21,10 +21,16 @@ const config: Config = {
           from: { transform: "translatey(-60px)", opacity: "0" },
           to: { transform: "translate(0)", opacity: "1" },
         },
+        bounce: {
+          "0%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-20px)" },
+          "100%": { transform: "translateY(0)" },
+        },
       },
       animation: {
         dropIn: "dropIn 1s ease 200ms backwards",
         dropIn2: "dropIn2 1400ms ease 400ms backwards",
+        bounce: "bounce 2s ease ",
       },
       colors: {
         midnightpurple: "#413C58",

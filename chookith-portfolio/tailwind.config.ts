@@ -33,12 +33,16 @@ const config: Config = {
         bounce: "bounce 2s ease ",
       },
       colors: {
-        midnightpurple: "#413C58",
-        ashblue: "#9BBAB2",
-        teagreen: "#BFD7B5",
-        summergreen: "#E7EFC5",
-        sunlightyellow: "#F2DDA4",
+        //light
+        ashBlue: "#9BBAB2",
+        teaGreen: "#BFD7B5",
+        summerGreen: "#E7EFC5",
+        sunlightYellow: "#F2DDA4",
         cream: "#FDF8ED",
+        //dark
+        midnightpurple: "#413C58",
+        mossGreen: "#606C38",
+        tigerEyeOrange: "#BC6C25",
       },
     },
   },

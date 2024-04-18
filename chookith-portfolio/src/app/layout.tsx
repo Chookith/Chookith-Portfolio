@@ -3,6 +3,7 @@ import "./globals.css";
 import Link from "next/link";
 
 import { ErrorBoundary } from "next/dist/client/components/error-boundary";
+import ContactMeBtn from "./_contact-Me-Btn/page";
 
 export const metadata: Metadata = {
   title: "Chookith portfolio",
@@ -17,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="h-25 fixed z-30 hidden w-screen flex-row items-center bg-cream text-2xl font-medium shadow-lg lg:flex">
+        <div className="h-25 fixed z-30 hidden w-screen flex-row items-center bg-cream text-2xl font-medium shadow-lg md:flex">
           <div className="flex basis-1/2 items-start justify-start p-10">
             <Link
               href="/"
@@ -28,12 +29,7 @@ export default function RootLayout({
           </div>
 
           <div className=" flex basis-1/2 items-end justify-end p-10">
-            <Link
-              href="mailto:chookchook1@outlook.com"
-              className=" flex justify-end transition delay-75 hover:-translate-y-1"
-            >
-              Contact Me
-            </Link>
+            <ContactMeBtn></ContactMeBtn>
           </div>
         </div>
 

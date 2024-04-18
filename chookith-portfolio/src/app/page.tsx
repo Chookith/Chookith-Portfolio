@@ -8,8 +8,8 @@ export default function Home() {
     <Suspense fallback={<Loading />}>
       <main>
         <section className="flex w-auto flex-col md:flex-row lg:h-screen">
-          <section className="flex flex-col items-center justify-center md:ml-10 md:mt-16 md:basis-1/2 lg:mt-28 lg:h-auto">
-            <h1 className="mt-5 animate-[dropIn2_1200ms_ease_300ms_backwards] items-center justify-center text-center text-4xl sm:mt-10 sm:text-5xl lg:mt-0 ">
+          <section className="flex flex-col items-center justify-center md:ml-10 md:mt-32 md:basis-1/2 lg:mt-28 lg:h-auto">
+            <h1 className="mt-5 animate-[dropIn2_1200ms_ease_300ms_backwards] items-center justify-center text-center text-4xl sm:mt-10 sm:text-5xl md:mt-0 ">
               I am
             </h1>
             <h1 className="mt-7 animate-[dropIn2_1200ms_ease_400ms_backwards] items-center justify-center text-center text-6xl sm:text-7xl md:mt-16 lg:mt-28 lg:text-8xl xl:text-9xl">
@@ -30,7 +30,7 @@ export default function Home() {
               I'm a Front End Developer based in <br /> Queensland, Australia
             </p>
           </section>
-          <section className="mt-10 flex items-center justify-center md:mr-10 md:mt-16 md:basis-1/2 lg:mt-28">
+          <section className="mt-10 flex items-center justify-center md:mr-10 md:mt-32 md:basis-1/2 lg:mt-28">
             <Image
               src="/my-Photo.jpeg"
               priority={true}
@@ -42,7 +42,7 @@ export default function Home() {
           </section>
         </section>
         <section className="m-10 flex h-auto w-auto flex-col">
-          <h1 className="mb-10 animate-[dropIn_1200ms_ease_300ms_backwards] items-center justify-center text-center text-5xl">
+          <h1 className="mb-5 animate-[dropIn_1200ms_ease_300ms_backwards] items-center justify-center text-center text-5xl">
             About Me
           </h1>
           <div className="flex flex-col items-center justify-center divide-y lg:flex-row lg:divide-x  lg:divide-y-0 lg:divide-solid">
@@ -121,11 +121,11 @@ export default function Home() {
             </article>
           </div>
         </section>
-        <section className="m-10 flex h-auto w-auto flex-col items-center justify-center pb-16 text-center">
+        <section className="m-10 flex h-auto w-auto flex-col items-center justify-center text-center">
           <h1 className="mb-5 animate-[dropIn_1200ms_ease_300ms_backwards] text-center text-5xl">
             Projects
           </h1>
-          <h2 className="my-5 flex animate-[dropIn_1200ms_ease_400ms_backwards] items-center justify-center text-3xl">
+          <h2 className="mb-5 flex animate-[dropIn_1200ms_ease_400ms_backwards] items-center justify-center text-3xl">
             Completed
           </h2>
           <ul className="row-auto grid w-full grid-cols-1 flex-col items-center justify-center gap-5 lg:grid-cols-3">
@@ -222,7 +222,7 @@ export default function Home() {
             </li>
             <li className="flex w-full  animate-[dropIn_1200ms_ease_750ms_backwards]"></li>
           </ul>
-          <h2 className="my-10 flex animate-[dropIn_1200ms_ease_800ms_backwards] items-center justify-center text-3xl">
+          <h2 className="mb-5 mt-10 flex animate-[dropIn_1200ms_ease_800ms_backwards] items-center justify-center text-3xl">
             In Progress
           </h2>
           <ul className="row-auto grid w-full grid-cols-1 flex-col items-center justify-center gap-5 lg:grid-cols-3">
@@ -257,50 +257,57 @@ export default function Home() {
             </li>
           </ul>
         </section>
-        <section className=" h-full  w-full rounded-2xl bg-ashblue px-10 py-10 shadow-xl">
-          <h1 className="mt-5 animate-[dropIn_1200ms_ease_300ms_backwards] pb-10 text-center text-5xl lg:mt-5 lg:pl-5">
+        <footer className=" h-full  w-full rounded-2xl bg-ashblue p-10 shadow-xl">
+          <h1 className="mb-5 animate-[dropIn_1200ms_ease_300ms_backwards] text-center text-5xl">
             Let's Get In Contact
           </h1>
           <article className=" flex w-full basis-1/2 flex-col lg:flex-row lg:divide-x lg:divide-y-0">
-            <div className="mb-5 grid basis-1/4 grid-cols-2 grid-rows-2 items-center justify-center gap-2 md:mr-5 lg:mb-0 ">
-              <Link
-                href="mailto:chookchook1@outlook.com"
-                className="m-1 flex animate-[dropIn_1200ms_ease_350ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl"
-              >
-                Email
-              </Link>
-              <Link
-                href="https://github.com/Chookith"
-                target="_blank"
-                rel="noreferrer noopener"
-                className=" flex animate-[dropIn_1200ms_ease_400ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl"
-              >
-                GitHub
-              </Link>
+            <ul className="mb-5 grid basis-1/4 grid-cols-2 grid-rows-2 items-center justify-center gap-5 md:mr-5 lg:mb-0 lg:basis-1/2 xl:basis-1/4">
+              <li>
+                <Link
+                  href="mailto:chookchook1@outlook.com"
+                  className=" flex animate-[dropIn_1200ms_ease_350ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl"
+                >
+                  Email
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://github.com/Chookith"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className=" flex animate-[dropIn_1200ms_ease_400ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl"
+                >
+                  GitHub
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://www.linkedin.com/in/chookith-f2dda3/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className=" flex animate-[dropIn_1200ms_ease_450ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl"
+                >
+                  LinkedIn
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://www.instagram.com/chookith001?igsh=am42MThmaGVvbmtr&utm_-source=qr"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className=" flex animate-[dropIn_1200ms_ease_500ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl"
+                >
+                  Instagram
+                </Link>
+              </li>
+            </ul>
 
-              <Link
-                href="https://www.linkedin.com/in/chookith-f2dda3/"
-                target="_blank"
-                rel="noreferrer noopener"
-                className=" flex animate-[dropIn_1200ms_ease_450ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl"
-              >
-                LinkedIn
-              </Link>
-              <Link
-                href="https://www.instagram.com/chookith001?igsh=am42MThmaGVvbmtr&utm_-source=qr"
-                target="_blank"
-                rel="noreferrer noopener"
-                className=" flex animate-[dropIn_1200ms_ease_500ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl"
-              >
-                Instagram
-              </Link>
-            </div>
-
-            <p className="flex basis-3/4 animate-[dropIn_1200ms_ease_600ms_backwards] items-center justify-start border-y py-10 pl-5 text-center text-2xl lg:py-0">
+            <p className="flex basis-3/4 animate-[dropIn_1200ms_ease_600ms_backwards] items-center justify-start border-y py-10 text-center text-2xl lg:py-0 lg:pl-5">
               Feel free to get in touch! I'd love to get some freelance work{" "}
             </p>
           </article>
-        </section>
+        </footer>
       </main>
     </Suspense>
   );

@@ -7,6 +7,7 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: "selector",
   theme: {
     extend: {
       fontFamily: {
@@ -40,9 +41,12 @@ const config: Config = {
         sunlightYellow: "#F2DDA4",
         cream: "#FDF8ED",
         //dark
-        midnightpurple: "#413C58",
-        mossGreen: "#606C38",
-        tigerEyeOrange: "#BC6C25",
+        nyx: "#121018",
+        mossGreen: "#48502A",
+        olive: "#6A6A24",
+        caribbeanCurrent: "#08595E",
+        goldMetallic: "#977921",
+        spaceCadet: "#2A283E",
       },
     },
   },

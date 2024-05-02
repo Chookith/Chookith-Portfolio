@@ -3,7 +3,9 @@ import "./globals.css";
 import Link from "next/link";
 
 import { ErrorBoundary } from "next/dist/client/components/error-boundary";
-import ContactMeBtn from "./_contact-Me-Btn/page";
+
+import ThemeEnablerBtn from "./_components/theme-enabler-btn";
+import ContactMeBtn from "./_components/contact-Me-Btn";
 
 export const metadata: Metadata = {
   title: "Chookith portfolio",
@@ -18,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="h-25 fixed z-30 hidden w-screen flex-row items-center bg-cream text-2xl font-medium shadow-lg md:flex">
+        <div className="dark:bg-spaceCadet fixed z-30 hidden w-screen flex-row items-center bg-cream text-2xl font-medium shadow-lg md:flex dark:text-white dark:shadow-[#32304B]">
           <div className="flex basis-1/2 items-start justify-start p-10">
             <Link
               href="/"
@@ -29,7 +31,8 @@ export default function RootLayout({
           </div>
 
           <div className=" flex basis-1/2 items-end justify-end p-10">
-            <ContactMeBtn></ContactMeBtn>
+            <ThemeEnablerBtn></ThemeEnablerBtn>
+            <ContactMeBtn />
           </div>
         </div>
 

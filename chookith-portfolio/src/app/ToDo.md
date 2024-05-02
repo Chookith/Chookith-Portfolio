@@ -13,14 +13,19 @@
 
   - [ x ] light
 
-    - midnightpurple: #413C58
-    - ashblue: #9BBAB2
-    - teagreen: #BFD7B5
-    - summergreen: #E7EFC5
-    - sunlightyellow: #F2DDA4
-    - cream: #FDF8ED
+    - _ashblue_ : #9BBAB2
+    - _teagreen_ : #BFD7B5
+    - _summergreen_ : #E7EFC5
+    - _sunlightyellow_ : #F2DDA4
+    - _cream_ : #FDF8ED
 
-  - [ ] Dark
+  - [ x ] Dark
+    - _caribbeanCurrent_ : #08595E
+    - _mossGreen_ : #48502A
+    - _olive_ : #6A6A24
+    - _goldMetallic_ : #977921
+    - _spaceCadet_ : #2A283E
+    - _nyx_ : #121018
 
 - [ x ] sound page design
   - [ x ] even padding / margins
@@ -30,7 +35,7 @@
     - Unsure if header bar is necessary on 404 page.
     - If you are getting a 404 chances are users are looking for it so...
     - [ x ] Button to Get off 404
-    - [ x ] button to get home from **_redacted_**
+    - [ x ] button to get home from [ **_redacted_** ]
 
 ### header [ x ]
 

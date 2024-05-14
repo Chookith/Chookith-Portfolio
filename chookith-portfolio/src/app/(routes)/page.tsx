@@ -193,7 +193,7 @@ export default function Home() {
                 </p>
               </Link>
             </li>
-            <li className="flex w-full animate-[dropIn_1200ms_ease_650ms_backwards] "></li>
+            <li className="hidden w-full animate-[dropIn_1200ms_ease_650ms_backwards] lg:flex"></li>
             <li className=" dark:bg-spaceCadet flex w-full animate-[dropIn_1200ms_ease_700ms_backwards] flex-col items-center justify-center rounded-3xl bg-cream p-5 shadow-md">
               <h1 className="text-2xl">Portfolio</h1>
               <ul className="flex  flex-wrap items-center justify-center xl:flex-row">
@@ -221,7 +221,7 @@ export default function Home() {
                 managed to come up with this.
               </p>
             </li>
-            <li className="flex w-full  animate-[dropIn_1200ms_ease_750ms_backwards]"></li>
+            <li className="hidden w-full animate-[dropIn_1200ms_ease_750ms_backwards]  lg:flex"></li>
           </ul>
           <h2 className="mb-5 mt-10 flex animate-[dropIn_1200ms_ease_800ms_backwards] items-center justify-center text-3xl">
             In Progress

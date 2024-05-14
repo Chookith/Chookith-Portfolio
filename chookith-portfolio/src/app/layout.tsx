@@ -21,14 +21,14 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div className="dark:bg-spaceCadet fixed z-30 hidden w-screen flex-row items-center bg-cream text-2xl font-medium shadow-lg md:flex dark:text-white dark:shadow-[#32304B]">
-          <div className="flex basis-1/2 items-start justify-start p-10">
+          <button className="flex basis-1/2 items-start justify-start p-10 ">
             <Link
               href="/"
-              className=" flex transition delay-75 hover:-translate-y-1"
+              className=" flex transition delay-75 hover:-translate-y-1 active:translate-y-1"
             >
               Chookith
             </Link>
-          </div>
+          </button>
 
           <div className=" flex basis-1/2 items-end justify-end p-10">
             <ThemeEnablerBtn></ThemeEnablerBtn>

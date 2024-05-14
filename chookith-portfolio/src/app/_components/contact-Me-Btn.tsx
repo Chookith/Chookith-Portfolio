@@ -13,7 +13,7 @@ export default class ContactMeBtn extends Component {
     return (
       <button
         onClick={handleScroll}
-        className=" flex justify-end transition delay-75 hover:-translate-y-1"
+        className=" flex justify-end transition delay-75 hover:-translate-y-1 active:translate-y-1"
       >
         Contact Me
       </button>

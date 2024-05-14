@@ -22,7 +22,7 @@ export default function PrettyQuotes() {
             </h3>
             <Link
               href="/"
-              className="dark:bg-spaceCadet mb-10 rounded-full bg-cream p-5 text-center shadow-lg transition delay-75  hover:-translate-y-1  hover:shadow-xl dark:shadow-[#32304B]"
+              className="dark:bg-spaceCadet mb-10 rounded-full bg-cream p-5 text-center shadow-md transition delay-75  hover:-translate-y-1  hover:shadow-xl active:translate-y-1 dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
             >
               Go Home
             </Link>
@@ -542,9 +542,58 @@ export default function PrettyQuotes() {
             </p>
           </li>
         </ul>
-
-        <p className="mt-5 flex flex-col text-center">I'm actually pagan :)</p>
       </section>
+      <footer className=" dark:bg-caribbeanCurrent  h-full w-full rounded-2xl bg-ashBlue p-10 shadow-xl">
+        <h1 className="mb-5 animate-[dropIn_1200ms_ease_300ms_backwards] text-center text-5xl">
+          Let's Get In Contact
+        </h1>
+        <article className=" flex w-full basis-1/2 flex-col lg:flex-row lg:divide-x lg:divide-y-0">
+          <ul className="mb-5 grid basis-1/4 grid-cols-2 grid-rows-2 items-center justify-center gap-5 md:mr-5 lg:mb-0 lg:basis-1/2 xl:basis-1/4">
+            <li>
+              <Link
+                href="mailto:chookchook1@outlook.com"
+                className="dark:bg-spaceCadet flex animate-[dropIn_1200ms_ease_350ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl active:translate-y-1 dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
+              >
+                Email
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="https://github.com/Chookith"
+                target="_blank"
+                rel="noreferrer noopener"
+                className=" dark:bg-spaceCadet flex animate-[dropIn_1200ms_ease_400ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl active:translate-y-1 dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
+              >
+                GitHub
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="https://www.linkedin.com/in/chookith-f2dda3/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="dark:bg-spaceCadet flex animate-[dropIn_1200ms_ease_450ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl active:translate-y-1 dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
+              >
+                LinkedIn
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="https://www.instagram.com/chookith001?igsh=am42MThmaGVvbmtr&utm_-source=qr"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="dark:bg-spaceCadet flex animate-[dropIn_1200ms_ease_500ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-lg active:translate-y-1 dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
+              >
+                Instagram
+              </Link>
+            </li>
+          </ul>
+
+          <p className="flex basis-3/4 animate-[dropIn_1200ms_ease_600ms_backwards] items-center justify-start border-y py-10 text-center text-2xl lg:py-0 lg:pl-5">
+            Feel free to get in touch! I'd love to get some freelance work{" "}
+          </p>
+        </article>
+      </footer>
     </main>
   );
 }

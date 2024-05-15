@@ -4,7 +4,7 @@ import { useState } from "react";
 import { LightMode, DarkMode } from "@mui/icons-material";
 
 export default function ThemeEnablerBtn() {
-  const [dark, setDark] = useState(true || false);
+  const [dark, setDark] = useState(false);
   useEffect(() => {
     if (
       localStorage.theme === "dark" ||
@@ -18,12 +18,8 @@ export default function ThemeEnablerBtn() {
   }, []);
 
   function darkModeHandler() {
-    if (dark === true) {
-      document.documentElement.classList.add("dark");
-    } else if (dark === false) {
-      document.documentElement.classList.remove("dark");
-    }
     setDark(!dark);
+    document.documentElement.classList.toggle("dark");
   }
   return (
     <button

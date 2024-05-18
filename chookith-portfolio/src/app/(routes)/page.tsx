@@ -9,7 +9,7 @@ export default function Home() {
     <Suspense fallback={<Loading />}>
       <main className="dark:bg-nyx dark:text-white">
         <section className="flex w-auto flex-col md:flex-row lg:h-screen ">
-          <section className="flex flex-col items-center justify-center md:ml-10 md:mt-32 md:basis-1/2 lg:mt-28 lg:h-auto">
+          <section className="mt-28 flex flex-col items-center justify-center md:ml-10 md:mt-32 md:basis-1/2 lg:mt-28 lg:h-auto">
             <h1 className="mt-5 animate-[dropIn2_1200ms_ease_300ms_backwards] items-center justify-center text-center text-4xl sm:mt-10 sm:text-5xl md:mt-0 ">
               I am
             </h1>
@@ -48,22 +48,22 @@ export default function Home() {
           </h1>
           <div className="flex flex-col items-center justify-center divide-y lg:flex-row lg:divide-x  lg:divide-y-0 lg:divide-solid">
             <article className="animate-[dropIn_1200ms_ease_400ms_backwards] flex-col items-center justify-center lg:mr-5 lg:flex lg:basis-1/2 ">
-              <q className="dark:bg-caribbeanCurrent hidden rounded-full bg-ashBlue p-16 text-2xl lg:flex xl:hidden">
+              <q className="hidden rounded-full bg-ashBlue p-16 text-2xl lg:flex xl:hidden dark:bg-caribbeanCurrent">
                 i. first there was light and then there were colors, and from
                 the beginning we looked at the colors and we loved them, and we
                 touched them, silk streaked veins and our rough hands dragging
                 over these pieces of starlight
               </q>
-              <q className="dark:bg-caribbeanCurrent hidden rounded-full bg-ashBlue p-10 text-lg sm:flex md:hidden">
+              <q className="hidden rounded-full bg-ashBlue p-10 text-lg sm:flex md:hidden dark:bg-caribbeanCurrent">
                 ii. little did we know we were made of stardust too.
               </q>
-              <q className=" dark:bg-caribbeanCurrent hidden rounded-full bg-ashBlue p-10 text-lg md:flex lg:hidden">
+              <q className=" hidden rounded-full bg-ashBlue p-10 text-lg md:flex lg:hidden dark:bg-caribbeanCurrent">
                 iii. paint splattered hands and blank canvases, we are fragile
                 things because we are taught there is no need for us anymore. No
                 need for these benders of color, for these beautiful beings who
                 filter these remnants of stars into tangible things.
               </q>
-              <q className="dark:bg-caribbeanCurrent hidden rounded-full bg-ashBlue p-16 text-2xl 2xl:flex">
+              <q className="hidden rounded-full bg-ashBlue p-16 text-2xl 2xl:flex dark:bg-caribbeanCurrent">
                 iv. in our fragile worlds we build for ourselves great cities
                 and towering portals that lead elsewhere, these brushes, these
                 pens; they are our escape. They are the only way out from this
@@ -72,14 +72,14 @@ export default function Home() {
                 soft and gentle like crushed violets, and most of all, they are
                 safe
               </q>
-              <q className="dark:bg-caribbeanCurrent hidden rounded-full bg-ashBlue p-16 text-2xl xl:flex 2xl:hidden">
+              <q className="hidden rounded-full bg-ashBlue p-16 text-2xl xl:flex 2xl:hidden dark:bg-caribbeanCurrent">
                 v. but we are strong too. and in our soft bodies behind aprons
                 and cloth and warm skin we harbor iron and steel and we will not
                 be broken. because we are needed in this cruel world and we hold
                 it together with words intertwined like spun sugar. because we
                 looked at those colors and thought they can be more.
               </q>
-              <q className="dark:bg-caribbeanCurrent flex rounded-full bg-ashBlue p-10 text-lg sm:hidden">
+              <q className="flex rounded-full bg-ashBlue p-10 text-lg sm:hidden dark:bg-caribbeanCurrent">
                 vi. we have constellations in our eyes and sunlight in our skin
               </q>
 
@@ -130,7 +130,7 @@ export default function Home() {
             Completed
           </h2>
           <ul className="row-auto grid w-full grid-cols-1 flex-col items-center justify-center gap-5 lg:grid-cols-3">
-            <li className="dark:bg-goldMetallic flex w-full animate-[dropIn_1200ms_ease_500ms_backwards] flex-col items-center justify-center rounded-3xl bg-sunlightYellow p-5 shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl dark:shadow-[#B89428] dark:hover:shadow-lg dark:hover:shadow-[#B89428]">
+            <li className="flex w-full animate-[dropIn_1200ms_ease_500ms_backwards] flex-col items-center justify-center rounded-3xl bg-sunlightYellow p-5 shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl dark:bg-goldMetallic dark:shadow-[#B89428] dark:hover:shadow-lg dark:hover:shadow-[#B89428]">
               <Link
                 href="https://marketplace.visualstudio.com/items?itemName=Chookith.coffee-theme-dark"
                 target="_blank"
@@ -151,7 +151,7 @@ export default function Home() {
                 </p>
               </Link>
             </li>
-            <li className="dark:bg-goldMetallic flex w-full animate-[dropIn_1200ms_ease_550ms_backwards] items-center justify-center rounded-3xl bg-sunlightYellow p-5 shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl dark:shadow-[#B89428] dark:hover:shadow-lg dark:hover:shadow-[#B89428]">
+            <li className="flex w-full animate-[dropIn_1200ms_ease_550ms_backwards] items-center justify-center rounded-3xl bg-sunlightYellow p-5 shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl dark:bg-goldMetallic dark:shadow-[#B89428] dark:hover:shadow-lg dark:hover:shadow-[#B89428]">
               <Link
                 href="https://marketplace.visualstudio.com/items?itemName=Chookith.coffee-theme-light"
                 target="_blank"
@@ -172,7 +172,7 @@ export default function Home() {
                 </p>
               </Link>
             </li>
-            <li className="dark:bg-goldMetallic flex w-full animate-[dropIn_1200ms_ease_600ms_backwards]  items-center justify-center rounded-3xl bg-sunlightYellow p-5 shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl active:translate-y-1 dark:shadow-[#B89428] dark:hover:shadow-lg dark:hover:shadow-[#B89428]">
+            <li className="flex w-full animate-[dropIn_1200ms_ease_600ms_backwards] items-center  justify-center rounded-3xl bg-sunlightYellow p-5 shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl active:translate-y-1 dark:bg-goldMetallic dark:shadow-[#B89428] dark:hover:shadow-lg dark:hover:shadow-[#B89428]">
               <Link
                 href="https://marketplace.visualstudio.com/items?itemName=Chookith.dark-fem-theme"
                 target="_blank"
@@ -194,7 +194,7 @@ export default function Home() {
               </Link>
             </li>
             <li className="hidden w-full animate-[dropIn_1200ms_ease_650ms_backwards] lg:flex"></li>
-            <li className=" dark:bg-spaceCadet flex w-full animate-[dropIn_1200ms_ease_700ms_backwards] flex-col items-center justify-center rounded-3xl bg-cream p-5 shadow-md">
+            <li className=" flex w-full animate-[dropIn_1200ms_ease_700ms_backwards] flex-col items-center justify-center rounded-3xl bg-cream p-5 shadow-md dark:bg-spaceCadet">
               <h1 className="text-2xl">Portfolio</h1>
               <ul className="flex  flex-wrap items-center justify-center xl:flex-row">
                 <li className="mr-2 mt-2 rounded-full bg-teaGreen   p-3 shadow-lg dark:bg-mossGreen dark:shadow-md dark:shadow-[#545E31]">
@@ -227,7 +227,7 @@ export default function Home() {
             In Progress
           </h2>
           <ul className="row-auto grid w-full grid-cols-1 flex-col items-center justify-center gap-5 lg:grid-cols-3">
-            <li className="dark:bg-olive flex w-full animate-[dropIn_1200ms_ease_850ms_backwards] flex-col items-center justify-center rounded-3xl bg-summerGreen p-5 shadow-md ">
+            <li className="flex w-full animate-[dropIn_1200ms_ease_850ms_backwards] flex-col items-center justify-center rounded-3xl bg-summerGreen p-5 shadow-md dark:bg-olive ">
               <h1 className="text-2xl">Todo-ii App</h1>
               <ul className="flex  flex-wrap items-center justify-center xl:flex-row">
                 <li className="mr-2 mt-2 rounded-full bg-teaGreen   p-3 shadow-lg dark:bg-mossGreen dark:shadow-md dark:shadow-[#545E31]">
@@ -241,7 +241,7 @@ export default function Home() {
                 </li>
               </ul>
             </li>
-            <li className=" dark:bg-olive  flex w-full animate-[dropIn_1200ms_ease_900ms_backwards] flex-col items-center justify-center rounded-3xl bg-summerGreen p-5 shadow-md">
+            <li className=" flex  w-full animate-[dropIn_1200ms_ease_900ms_backwards] flex-col items-center justify-center rounded-3xl bg-summerGreen p-5 shadow-md dark:bg-olive">
               {" "}
               <h1 className="text-2xl">Pinterest Remake</h1>
               <ul className="flex  flex-wrap items-center justify-center xl:flex-row">
@@ -258,7 +258,7 @@ export default function Home() {
             </li>
           </ul>
         </section>
-        <footer className=" dark:bg-caribbeanCurrent  h-full w-full rounded-2xl bg-ashBlue p-10 shadow-xl">
+        <footer className=" h-full  w-full rounded-2xl bg-ashBlue p-10 shadow-xl dark:bg-caribbeanCurrent">
           <h1 className="mb-5 animate-[dropIn_1200ms_ease_300ms_backwards] text-center text-5xl">
             Let's Get In Contact
           </h1>
@@ -267,7 +267,7 @@ export default function Home() {
               <li>
                 <Link
                   href="mailto:chookchook1@outlook.com"
-                  className="dark:bg-spaceCadet flex animate-[dropIn_1200ms_ease_350ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
+                  className="flex animate-[dropIn_1200ms_ease_350ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl dark:bg-spaceCadet dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
                 >
                   Email
                 </Link>
@@ -277,7 +277,7 @@ export default function Home() {
                   href="https://github.com/Chookith"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className=" dark:bg-spaceCadet flex animate-[dropIn_1200ms_ease_400ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
+                  className=" flex animate-[dropIn_1200ms_ease_400ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl dark:bg-spaceCadet dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
                 >
                   GitHub
                 </Link>
@@ -287,7 +287,7 @@ export default function Home() {
                   href="https://www.linkedin.com/in/chookith-f2dda3/"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="dark:bg-spaceCadet flex animate-[dropIn_1200ms_ease_450ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
+                  className="flex animate-[dropIn_1200ms_ease_450ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl dark:bg-spaceCadet dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
                 >
                   LinkedIn
                 </Link>
@@ -297,7 +297,7 @@ export default function Home() {
                   href="https://www.instagram.com/chookith001?igsh=am42MThmaGVvbmtr&utm_-source=qr"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="dark:bg-spaceCadet flex animate-[dropIn_1200ms_ease_500ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-lg dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
+                  className="flex animate-[dropIn_1200ms_ease_500ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-lg dark:bg-spaceCadet dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
                 >
                   Instagram
                 </Link>

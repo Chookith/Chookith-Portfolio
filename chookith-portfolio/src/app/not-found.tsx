@@ -14,7 +14,7 @@ may this curse be a blessing to the poor
 export default function NotFound() {
   return (
     <>
-      <div className="dark:bg-nyx flex h-screen w-screen flex-col items-center justify-center dark:text-white">
+      <div className="flex h-screen w-screen flex-col items-center justify-center dark:bg-nyx dark:text-white">
         <h1 className="text-7xl">404 error</h1>
 
         <p className="my-5 text-lg">
@@ -22,14 +22,14 @@ export default function NotFound() {
         </p>
         <Link
           href="/"
-          className="dark:bg-spaceCadet mb-10 rounded-full bg-cream p-5 text-center shadow-lg transition delay-75  hover:-translate-y-1 hover:shadow-xl dark:shadow-[#32304B]"
+          className="mb-10 rounded-full bg-cream p-5 text-center shadow-lg transition delay-75 hover:-translate-y-1 hover:shadow-xl active:translate-y-1 active:shadow-lg dark:bg-spaceCadet dark:shadow-md dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B] dark:active:shadow-md dark:active:shadow-[#32304B]"
         >
           Go Home
         </Link>
         <div className="">
           <Link
             href="/PrettyQuotes"
-            className=" dark:text-nyx  justify-end text-center text-white transition delay-75 hover:-translate-y-1"
+            className=" justify-end text-center text-white transition delay-75 hover:-translate-y-1 dark:text-nyx"
           >
             Go to pretty quotes
           </Link>

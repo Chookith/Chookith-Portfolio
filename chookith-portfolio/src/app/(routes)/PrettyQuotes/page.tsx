@@ -4,7 +4,7 @@ export default function PrettyQuotes() {
   return (
     <main className="dark:bg-nyx dark:text-white">
       <section className="flex w-auto flex-col">
-        <section className="mx-5 flex flex-col items-center justify-center lg:mt-24">
+        <section className="mx-5 mt-20 flex flex-col items-center justify-center lg:mt-24">
           <article className="mt-10 flex flex-col text-center">
             <h1 className="text-3xl">
               Hi <br /> umm i wasn't prepared for visitors but... <br />
@@ -22,7 +22,7 @@ export default function PrettyQuotes() {
             </h3>
             <Link
               href="/"
-              className="dark:bg-spaceCadet mb-10 rounded-full bg-cream p-5 text-center shadow-md transition delay-75  hover:-translate-y-1  hover:shadow-xl active:translate-y-1 dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
+              className="mb-10 rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1  hover:shadow-xl  active:translate-y-1 dark:bg-spaceCadet dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
             >
               Go Home
             </Link>
@@ -33,7 +33,7 @@ export default function PrettyQuotes() {
           </article>
         </section>
         <ul className="row-auto mx-5 my-10 grid w-auto grid-cols-1 flex-col gap-5 text-left lg:grid-cols-2">
-          <li className="dark:bg-caribbeanCurrent w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col rounded-3xl bg-ashBlue p-5 shadow-xl transition delay-75  lg:flex">
+          <li className="w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col rounded-3xl bg-ashBlue p-5 shadow-xl transition delay-75 lg:flex  dark:bg-caribbeanCurrent">
             <h3 className="text-2xl">On Being Named Messiah</h3>
             <p>
               <br />
@@ -79,7 +79,7 @@ export default function PrettyQuotes() {
             </p>
             <p className="text-center">-unknown</p>
           </li>
-          <li className=" dark:bg-caribbeanCurrent flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col rounded-3xl bg-ashBlue  p-5 shadow-xl transition delay-75">
+          <li className=" flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col rounded-3xl bg-ashBlue p-5  shadow-xl transition delay-75 dark:bg-caribbeanCurrent">
             <h3 className="text-2xl">
               Fallen Angel Prays Beside The Coffee Maker
             </h3>
@@ -142,7 +142,7 @@ export default function PrettyQuotes() {
               <i>-Keaton St. James</i>
             </p>
           </li>
-          <li className="dark:bg-goldMetallic flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col items-center justify-center rounded-3xl bg-sunlightYellow p-5 text-center shadow-xl transition delay-75">
+          <li className="flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col items-center justify-center rounded-3xl bg-sunlightYellow p-5 text-center shadow-xl transition delay-75 dark:bg-goldMetallic">
             <h3 className="text-2xl">Apollo</h3>
             <p>
               <br />
@@ -173,7 +173,7 @@ export default function PrettyQuotes() {
             </p>
             <p>Find me in the ashes</p>
           </li>
-          <li className=" dark:bg-caribbeanCurrent flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col rounded-3xl bg-ashBlue p-5 shadow-xl transition delay-75  ">
+          <li className=" flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col rounded-3xl bg-ashBlue p-5 shadow-xl transition delay-75 dark:bg-caribbeanCurrent  ">
             <h3 className="text-2xl">Guardian</h3>
             <p>
               a six-winged angel leans against the tennis court fence, xir
@@ -222,7 +222,7 @@ export default function PrettyQuotes() {
               <i>-Keaton St. James</i>
             </p>
           </li>
-          <li className=" dark:bg-caribbeanCurrent flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col items-center justify-center rounded-3xl bg-ashBlue p-5 shadow-xl transition delay-75 ">
+          <li className=" flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col items-center justify-center rounded-3xl bg-ashBlue p-5 shadow-xl transition delay-75 dark:bg-caribbeanCurrent ">
             <p>
               you lie awake under the vanilla milk moon and wait for the
               universe to sing you it's song about the first sunrise
@@ -290,7 +290,7 @@ export default function PrettyQuotes() {
               <br />
             </p>
           </li>
-          <li className=" dark:bg-caribbeanCurrent flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col justify-center rounded-3xl bg-ashBlue p-5 shadow-xl transition delay-75  ">
+          <li className=" flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col justify-center rounded-3xl bg-ashBlue p-5 shadow-xl transition delay-75 dark:bg-caribbeanCurrent  ">
             <h3 className="text-2xl">Messiah</h3>
             <p>
               <br />
@@ -366,7 +366,7 @@ export default function PrettyQuotes() {
               remind me of what it was to have. freedom. youth. dreams
             </p>
           </li>
-          <li className=" dark:bg-goldMetallic flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col items-center justify-center rounded-3xl bg-sunlightYellow p-5 text-center shadow-xl transition delay-75  ">
+          <li className=" flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col items-center justify-center rounded-3xl bg-sunlightYellow p-5 text-center shadow-xl transition delay-75 dark:bg-goldMetallic  ">
             <h3 className="text-2xl">Wild</h3>
             <p>
               <br />
@@ -437,7 +437,7 @@ export default function PrettyQuotes() {
               <br />
             </p>
           </li>
-          <li className=" dark:bg-goldMetallic flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col items-center justify-center rounded-3xl bg-sunlightYellow p-5 text-center shadow-xl transition delay-75  ">
+          <li className=" flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col items-center justify-center rounded-3xl bg-sunlightYellow p-5 text-center shadow-xl transition delay-75 dark:bg-goldMetallic  ">
             <h3 className="text-2xl">Wild Fire</h3>
             <p>
               <br />
@@ -493,14 +493,14 @@ export default function PrettyQuotes() {
               <br />
             </p>
           </li>
-          <li className=" dark:bg-caribbeanCurrent flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col items-center justify-center rounded-3xl bg-ashBlue p-5 text-center shadow-xl transition delay-75  ">
+          <li className=" flex w-full animate-[dropIn_1300ms_ease_900ms_backwards] flex-col items-center justify-center rounded-3xl bg-ashBlue p-5 text-center shadow-xl transition delay-75 dark:bg-caribbeanCurrent  ">
             <h3 className="text-2xl">angel</h3>
             <p>
               <br />
               i. in the beginning the lord said, <i>let there be cosmos.</i> so
               when you arrived it is as a mass of buring stardust, suns for
               bones and constellations for eyes. your body, a winged fragment of
-              space. the people will never be able to knoe the true form of you,
+              space. the people will never be able to know the true form of you,
               but subconsciously they still fear what lives inside of you. your
               wildernesses. your uncondensability. your many blue-tinted hungers
               <br />
@@ -520,9 +520,9 @@ export default function PrettyQuotes() {
             </p>
             <p>
               <br />
-              vi. it takes god three billion years to fashion man from oceanic
-              bacteria. it takes even longer to fashion the human guise which
-              you drape over your galactic skin. in nazareth the olives smell
+              vi. It takes god three billion years to fashion man from oceanic
+              bacteria. It takes even longer to fashion the human guise which
+              you drape over your galactic skin. In nazareth the olives smell
               too much of salt, but mary, sunburnt and laughing, has you try
               them anyway. she holds them out to you in her fist. you think,{" "}
               <i>
@@ -530,12 +530,12 @@ export default function PrettyQuotes() {
                 there are no words that can describe how small the human heart
                 is, and yet how large in love.
               </i>
-              part of you, peering upon our fragility, aches.
+              Part of you, peering upon our fragility, aches.
               <br />
             </p>
             <p>
               <br />
-              v. one day there will be savirs walking the parched earth with
+              v. one day there will be saviours walking the parched earth with
               their blistered heels. in the meantime, and always, there will be
               the polaris of your throat helping to sing us home.
               <br />
@@ -543,7 +543,7 @@ export default function PrettyQuotes() {
           </li>
         </ul>
       </section>
-      <footer className=" dark:bg-caribbeanCurrent  h-full w-full rounded-2xl bg-ashBlue p-10 shadow-xl">
+      <footer className=" h-full  w-full rounded-2xl bg-ashBlue p-10 shadow-xl dark:bg-caribbeanCurrent">
         <h1 className="mb-5 animate-[dropIn_1200ms_ease_300ms_backwards] text-center text-5xl">
           Let's Get In Contact
         </h1>
@@ -552,7 +552,7 @@ export default function PrettyQuotes() {
             <li>
               <Link
                 href="mailto:chookchook1@outlook.com"
-                className="dark:bg-spaceCadet flex animate-[dropIn_1200ms_ease_350ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl active:translate-y-1 dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
+                className="flex animate-[dropIn_1200ms_ease_350ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl active:translate-y-1 dark:bg-spaceCadet dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
               >
                 Email
               </Link>
@@ -562,7 +562,7 @@ export default function PrettyQuotes() {
                 href="https://github.com/Chookith"
                 target="_blank"
                 rel="noreferrer noopener"
-                className=" dark:bg-spaceCadet flex animate-[dropIn_1200ms_ease_400ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl active:translate-y-1 dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
+                className=" flex animate-[dropIn_1200ms_ease_400ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl active:translate-y-1 dark:bg-spaceCadet dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
               >
                 GitHub
               </Link>
@@ -572,7 +572,7 @@ export default function PrettyQuotes() {
                 href="https://www.linkedin.com/in/chookith-f2dda3/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="dark:bg-spaceCadet flex animate-[dropIn_1200ms_ease_450ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl active:translate-y-1 dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
+                className="flex animate-[dropIn_1200ms_ease_450ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl active:translate-y-1 dark:bg-spaceCadet dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
               >
                 LinkedIn
               </Link>
@@ -582,7 +582,7 @@ export default function PrettyQuotes() {
                 href="https://www.instagram.com/chookith001?igsh=am42MThmaGVvbmtr&utm_-source=qr"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="dark:bg-spaceCadet flex animate-[dropIn_1200ms_ease_500ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-lg active:translate-y-1 dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
+                className="flex animate-[dropIn_1200ms_ease_500ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-lg active:translate-y-1 dark:bg-spaceCadet dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
               >
                 Instagram
               </Link>

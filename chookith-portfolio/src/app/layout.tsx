@@ -6,6 +6,7 @@ import { ErrorBoundary } from "next/dist/client/components/error-boundary";
 
 import ThemeEnablerBtn from "./_components/theme-enabler-btn";
 import ContactMeBtn from "./_components/contact-Me-Btn";
+import HomeButton from "./_components/home-button";
 
 export const metadata: Metadata = {
   title: "Chookith portfolio",
@@ -20,21 +21,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="dark:bg-spaceCadet fixed z-30 hidden w-screen flex-row items-center bg-cream text-2xl font-medium shadow-lg md:flex dark:text-white dark:shadow-[#32304B]">
-          <button className="flex basis-1/2 items-start justify-start p-10 ">
-            <Link
-              href="/"
-              className=" flex transition delay-75 hover:-translate-y-1 active:translate-y-1"
-            >
-              Chookith
-            </Link>
-          </button>
-
-          <div className=" flex basis-1/2 items-end justify-end p-10">
+        <article className="fixed z-30 flex w-screen flex-row items-center justify-center bg-cream py-5 text-2xl font-medium shadow-lg sm:p-10 dark:bg-spaceCadet dark:text-white dark:shadow-[#32304B]">
+          <HomeButton />
+          <div className="flex min-w-fit basis-full flex-row justify-normal sm:max-w-fit sm:basis-1/3 sm:justify-end xl:basis-1/5">
             <ThemeEnablerBtn></ThemeEnablerBtn>
             <ContactMeBtn />
           </div>
-        </div>
+        </article>
 
         <div>{children}</div>
       </body>

@@ -35,8 +35,8 @@ export default function Home() {
             <Image
               src="/my-Photo.jpeg"
               priority={true}
-              width={700}
-              height={500}
+              width={1242}
+              height={2208}
               alt="smiling woman with green head wrap, glasses, and a black shirt"
               className=" flex w-1/2 animate-[dropIn_1200ms_ease_700ms_backwards] items-center justify-center rounded-3xl  xl:rounded-full 2xl:w-5/12"
             ></Image>

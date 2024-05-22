@@ -1,5 +1,6 @@
 import { Suspense } from "react";
 import Image from "next/image";
+import myPhoto from "../public/images/my-photo.jpeg";
 
 import Loading from "../loading";
 import Link from "next/link";
@@ -33,7 +34,7 @@ export default function Home() {
           </section>
           <section className="mt-10 flex items-center justify-center md:mr-10 md:mt-32 md:basis-1/2 lg:mt-28">
             <Image
-              src="/my-Photo.jpeg"
+              src={myPhoto}
               priority={true}
               width={1242}
               height={2208}

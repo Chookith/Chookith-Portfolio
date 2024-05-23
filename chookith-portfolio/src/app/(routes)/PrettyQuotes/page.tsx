@@ -551,7 +551,7 @@ export default function PrettyQuotes() {
           <ul className="mb-5 grid basis-1/4 grid-cols-2 grid-rows-2 items-center justify-center gap-5 md:mr-5 lg:mb-0 lg:basis-1/2 xl:basis-1/4">
             <li>
               <Link
-                href="mailto:hello@chookith.com"
+                href="mailto:chookchook1@outlook.com"
                 className="flex animate-[dropIn_1200ms_ease_350ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl active:translate-y-1 dark:bg-spaceCadet dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
               >
                 Email

@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Link from "next/link";
+
+import { ErrorBoundary } from "next/dist/client/components/error-boundary";
 
 import ThemeEnablerBtn from "./_components/theme-enabler-btn";
 import ContactMeBtn from "./_components/contact-Me-Btn";

@@ -11,7 +11,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-quickSand)"],
+        CenturyGothic: ["var(--font-Century-Gothic)"],
       },
       keyframes: {
         dropIn: {
@@ -22,17 +22,16 @@ const config: Config = {
           from: { transform: "translatey(-60px)", opacity: "0" },
           to: { transform: "translate(0)", opacity: "1" },
         },
-        bouncing: {
-          "0%": { transform: "translate(0px)" },
-          "50%": { transform: "translatey(-20px)" },
-          "100%": { transform: "translate(0px)" },
+        bounce: {
+          "0%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-20px)" },
+          "100%": { transform: "translateY(0)" },
         },
       },
-
       animation: {
         dropIn: "dropIn 1s ease 200ms backwards",
         dropIn2: "dropIn2 1400ms ease 400ms backwards",
-        bouncing: "bouncing 2s ease 200ms normal forward",
+        bounce: "bounce 2s ease ",
       },
       colors: {
         //light

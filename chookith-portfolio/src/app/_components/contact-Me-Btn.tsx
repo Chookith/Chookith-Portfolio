@@ -12,7 +12,7 @@ function handleScroll() {
 export default class ContactMeBtn extends Component {
   render(): ReactNode {
     return (
-      <div className="mr-5 flex basis-1/2 items-center justify-center sm:mr-0 sm:basis-11/12">
+      <div className="flex basis-1/2 items-center justify-center sm:basis-11/12">
         <button
           onClick={handleScroll}
           className="transition delay-75 hover:-translate-y-1 active:translate-y-1"

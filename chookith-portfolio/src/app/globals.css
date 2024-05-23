@@ -15,7 +15,8 @@
 }
 
 body {
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", "Apple Gothic", AppleGothic, "URW Gothic L",
+    "Avant Garde", Futura, sans-serif;
   color: (var(--foreground));
   background: (var(--background));
 }

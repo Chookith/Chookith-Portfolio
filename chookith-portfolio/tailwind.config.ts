@@ -22,16 +22,16 @@ const config: Config = {
           from: { transform: "translatey(-60px)", opacity: "0" },
           to: { transform: "translate(0)", opacity: "1" },
         },
-        bounce: {
-          "0%": { transform: "translateY(0)" },
-          "50%": { transform: "translateY(-20px)" },
-          "100%": { transform: "translateY(0)" },
+        bouncing: {
+          "0%": { transform: "translatey(0px)" },
+          "50%": { transform: "translatey(-20px)" },
+          "100%": { transform: "translatey(0px)" },
         },
       },
       animation: {
         dropIn: "dropIn 1s ease 200ms backwards",
         dropIn2: "dropIn2 1400ms ease 400ms backwards",
-        bounce: "bounce 2s ease ",
+        bounce: "bouncing 2s ease 200ms normal forward",
       },
       colors: {
         //light

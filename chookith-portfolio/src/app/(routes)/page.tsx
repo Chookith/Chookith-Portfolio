@@ -18,13 +18,13 @@ export default function Home() {
               Chookith
             </h1>
             <div className=" flex animate-[dropIn_1200ms_ease_500ms_backwards] flex-row items-center justify-center py-7 lg:mt-20">
-              <p className="mx-2 animate-[bounce_2s_ease_1700ms] rounded-full bg-teaGreen p-3 shadow-lg sm:mr-4 dark:bg-mossGreen dark:shadow-md dark:shadow-[#545E31]">
+              <p className="mx-2 animate-[bouncing_2s_ease_1700ms] rounded-full bg-teaGreen p-3 shadow-lg transition sm:mr-4 dark:bg-mossGreen dark:shadow-md dark:shadow-[#545E31]">
                 React
               </p>
-              <p className="mx-2 animate-[bounce_2s_ease_1900ms] rounded-full bg-teaGreen p-3 shadow-lg sm:mr-4 dark:bg-mossGreen dark:shadow-md dark:shadow-[#545E31]">
+              <p className="mx-2 animate-[bouncing_2s_ease_1900ms] rounded-full bg-teaGreen p-3 shadow-lg transition sm:mr-4 dark:bg-mossGreen dark:shadow-md dark:shadow-[#545E31]">
                 Tailwind
               </p>
-              <p className="mx-2 animate-[bounce_2s_ease_2100ms] rounded-full bg-teaGreen p-3 shadow-lg sm:mr-4 dark:bg-mossGreen dark:shadow-md dark:shadow-[#545E31]">
+              <p className="mx-2 animate-[bouncing_2s_ease_2100ms] rounded-full bg-teaGreen p-3 shadow-lg transition sm:mr-4 dark:bg-mossGreen dark:shadow-md dark:shadow-[#545E31]">
                 TypeScript
               </p>
             </div>
@@ -96,29 +96,43 @@ export default function Home() {
             <article className="animate-[dropIn_1200ms_ease_500ms_backwards] lg:basis-1/2 lg:pl-5">
               <p className="pt-5 text-center text-xl lg:pt-0">
                 Hello I'm Charli also known as Chookith. I am a junior front-end
-                web developer who is based in Australia. After an accidental
-                brush with a websites devtools I started learning the ins and
-                outs of web developement. I have been coding as a hobby for 4
-                years now.
+                web developer based in Australia. In my youth, I took an
+                interest in other languages and stumbled upon the variety of
+                languages software development had to offer. So, for the last
+                four years, I have been passionately coding as a hobby,
+                constantly challenging myself and learning new technologies.
+                This hobby has grown into a deep-seated passion, and after much
+                consideration, I've decided to transition my hobby into a
+                career. I am committed to furthering my skills and knowledge in
+                web development and am excited about the opportunities this
+                career path can offer.
               </p>
               <p className=" text-center text-xl">
                 <br />
-                Over the past 2 years I have honed my skills and have become
-                well rounded in TypeScript and React. I appreciate the challenge
-                of balancing creating beautiful user interfaces designs while
-                creating a memorable user experiences.
+                My coding journey has been a thrilling one, marked by the
+                acquisition of a versatile skill set. I began with Spanish and
+                then ventured into Python and C#, before focusing on HTML and
+                its frameworks, particularly React, Typescript, and Tailwind.
+                Each new idea and concept I have sought to create has presented
+                me with a unique blend of artistic and logical challenges, which
+                I have come to deeply love and enjoy.
               </p>
               <p className="text-center text-xl">
                 <br />
-                Art has always been a part of me, from the canvas to the screen.
-                Although I have not had a formal education in art, I have been
-                fortunate enough to surround myself with well-rounded people in
-                both traditional and digital mediums.
+                For me, coding is not just a technical skill, but an art form.
+                Every colour choice, button positioning, and font style are
+                crucial elements in creating a visually appealing and functional
+                website. This perspective, combined with my understanding of the
+                business impact of web development, has allowed me to stay at
+                the forefront of this ever-evolving domain, not just as a
+                follower but as a creator.
               </p>
               <p className=" text-center text-xl">
                 <br />
-                Someday I plan to ease the strain in rural communities. More
-                specifically in the agriculture industry.
+                After becoming proficient in web and AI development, I seek to
+                alleviate the burden on the strained workforce. I plan to adapt
+                and apply these skills to improve efficiency in the agricultural
+                and healthcare industries.
               </p>
             </article>
           </div>
@@ -267,7 +281,7 @@ export default function Home() {
             <ul className="mb-5 grid basis-1/4 grid-cols-2 grid-rows-2 items-center justify-center gap-5 md:mr-5 lg:mb-0 lg:basis-1/2 xl:basis-1/4">
               <li>
                 <Link
-                  href="mailto:chookchook1@outlook.com"
+                  href="mailto:hello@chookith.com"
                   className="flex animate-[dropIn_1200ms_ease_350ms_backwards] items-center rounded-full bg-cream p-5 text-center shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl dark:bg-spaceCadet dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]"
                 >
                   Email

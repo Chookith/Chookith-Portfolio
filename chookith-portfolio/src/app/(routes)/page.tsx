@@ -154,10 +154,10 @@ export default function Home() {
               >
                 <h1 className="text-2xl">Late Night Mocha Theme</h1>
                 <ul className="flex flex-row flex-wrap items-center justify-center px-5 xl:flex-row">
-                  <li className="mr-2 mt-2 rounded-full bg-teaGreen   p-3 shadow-lg dark:bg-mossGreen dark:shadow-md dark:shadow-[#545E31]">
+                  <li className="mr-2 mt-2 rounded-full bg-teaGreen p-3 shadow-lg dark:bg-mossGreen dark:shadow-md dark:shadow-[#545E31]">
                     Color Theory
                   </li>
-                  <li className="mr-2 mt-2 rounded-full bg-teaGreen   p-3 shadow-lg dark:bg-mossGreen dark:shadow-md dark:shadow-[#545E31]">
+                  <li className="mr-2 mt-2 rounded-full bg-teaGreen p-3 shadow-lg dark:bg-mossGreen dark:shadow-md dark:shadow-[#545E31]">
                     Vsce Api
                   </li>
                 </ul>
@@ -175,10 +175,10 @@ export default function Home() {
               >
                 <h1 className="text-2xl">Morning Coffee Theme</h1>
                 <ul className="flex flex-row flex-wrap items-center justify-center px-5 xl:flex-row">
-                  <li className="mr-2 mt-2 rounded-full bg-teaGreen   p-3 shadow-lg dark:bg-mossGreen dark:shadow-md dark:shadow-[#545E31]">
+                  <li className="mr-2 mt-2 rounded-full bg-teaGreen p-3 shadow-lg dark:bg-mossGreen dark:shadow-md dark:shadow-[#545E31]">
                     Color Theory
                   </li>
-                  <li className="mr-2 mt-2 rounded-full bg-teaGreen   p-3 shadow-lg dark:bg-mossGreen dark:shadow-md dark:shadow-[#545E31]">
+                  <li className="mr-2 mt-2 rounded-full bg-teaGreen p-3 shadow-lg dark:bg-mossGreen dark:shadow-md dark:shadow-[#545E31]">
                     Vsce Api
                   </li>
                 </ul>
@@ -187,7 +187,7 @@ export default function Home() {
                 </p>
               </Link>
             </li>
-            <li className="flex w-full animate-[dropIn_1200ms_ease_600ms_backwards] items-center  justify-center rounded-3xl bg-sunlightYellow p-5 shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl active:translate-y-1 dark:bg-goldMetallic dark:shadow-[#B89428] dark:hover:shadow-lg dark:hover:shadow-[#B89428]">
+            <li className="flex w-full animate-[dropIn_1200ms_ease_600ms_backwards] items-center justify-center rounded-3xl bg-sunlightYellow p-5 shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl active:translate-y-1 dark:bg-goldMetallic dark:shadow-[#B89428] dark:hover:shadow-lg dark:hover:shadow-[#B89428]">
               <Link
                 href="https://marketplace.visualstudio.com/items?itemName=Chookith.dark-fem-theme"
                 target="_blank"
@@ -208,7 +208,30 @@ export default function Home() {
                 </p>
               </Link>
             </li>
-            <li className="hidden w-full animate-[dropIn_1200ms_ease_650ms_backwards] lg:flex"></li>
+            <li className="flex w-full animate-[dropIn_1200ms_ease_650ms_backwards] flex-col items-center justify-center rounded-3xl bg-cream p-5 shadow-md transition delay-75 hover:-translate-y-1 hover:shadow-xl active:translate-y-1 dark:bg-spaceCadet dark:shadow-[#32304B] dark:hover:shadow-lg dark:hover:shadow-[#32304B]">
+              <Link
+                href="https://todo-ii-chookiths-projects.vercel.app/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="w-full"
+              >
+                <h1 className="text-2xl">Todo-ii App</h1>
+                <ul className="flex flex-wrap items-center justify-center xl:flex-row">
+                  <li className="mr-2 mt-2 rounded-full bg-teaGreen p-3 shadow-lg dark:bg-mossGreen dark:shadow-md dark:shadow-[#545E31]">
+                    React
+                  </li>
+                  <li className="mr-2 mt-2 rounded-full bg-teaGreen p-3 shadow-lg dark:bg-mossGreen dark:shadow-md dark:shadow-[#545E31]">
+                    TypeScript
+                  </li>
+                  <li className="mr-2 mt-2 rounded-full bg-teaGreen p-3 shadow-lg dark:bg-mossGreen dark:shadow-md dark:shadow-[#545E31]">
+                    TailwindCSS
+                  </li>
+                </ul>
+                <p className="mt-5 px-5 pb-2 text-center">
+                  Small Todo list project
+                </p>
+              </Link>
+            </li>
             <li className=" flex w-full animate-[dropIn_1200ms_ease_700ms_backwards] flex-col items-center justify-center rounded-3xl bg-cream p-5 shadow-md dark:bg-spaceCadet">
               <h1 className="text-2xl">Portfolio</h1>
               <ul className="flex  flex-wrap items-center justify-center xl:flex-row">
@@ -242,20 +265,7 @@ export default function Home() {
             In Progress
           </h2>
           <ul className="row-auto grid w-full grid-cols-1 flex-col items-center justify-center gap-5 lg:grid-cols-3">
-            <li className="flex w-full animate-[dropIn_1200ms_ease_850ms_backwards] flex-col items-center justify-center rounded-3xl bg-summerGreen p-5 shadow-md dark:bg-olive ">
-              <h1 className="text-2xl">Todo-ii App</h1>
-              <ul className="flex  flex-wrap items-center justify-center xl:flex-row">
-                <li className="mr-2 mt-2 rounded-full bg-teaGreen   p-3 shadow-lg dark:bg-mossGreen dark:shadow-md dark:shadow-[#545E31]">
-                  React
-                </li>
-                <li className="mr-2 mt-2 rounded-full bg-teaGreen   p-3 shadow-lg dark:bg-mossGreen dark:shadow-md dark:shadow-[#545E31]">
-                  TypeScript
-                </li>
-                <li className="mr-2 mt-2 rounded-full bg-teaGreen   p-3 shadow-lg dark:bg-mossGreen dark:shadow-md dark:shadow-[#545E31]">
-                  TailwindCSS
-                </li>
-              </ul>
-            </li>
+            <li className="flex w-full animate-[dropIn_1200ms_ease_850ms_backwards] flex-col items-center justify-center rounded-3xl"></li>
             <li className=" flex  w-full animate-[dropIn_1200ms_ease_900ms_backwards] flex-col items-center justify-center rounded-3xl bg-summerGreen p-5 shadow-md dark:bg-olive">
               {" "}
               <h1 className="text-2xl">Pinterest Remake</h1>

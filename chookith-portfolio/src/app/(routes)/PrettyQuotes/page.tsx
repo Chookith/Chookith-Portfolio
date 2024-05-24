@@ -6,10 +6,7 @@ export default function PrettyQuotes() {
       <section className="flex w-auto flex-col">
         <section className="mx-5 mt-20 flex flex-col items-center justify-center lg:mt-24">
           <article className="mt-10 flex flex-col text-center">
-            <h1 className="text-3xl">
-              Hi <br /> umm i wasn't prepared for visitors but... <br />
-              Welcome!
-            </h1>
+            <h1 className="text-3xl">Welcome!</h1>
             <h2 className="mt-5 text-2xl">
               this is a little collection of the quotes i find pretty
             </h2>
@@ -26,10 +23,6 @@ export default function PrettyQuotes() {
             >
               Go Home
             </Link>
-            <p>
-              As much as i love architecture and poems inspire by the christan
-              religion, I am not christan by any means.
-            </p>
           </article>
         </section>
         <ul className="row-auto mx-5 my-10 grid w-auto grid-cols-1 flex-col gap-5 text-left lg:grid-cols-2">
